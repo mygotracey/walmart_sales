@@ -33,14 +33,28 @@ Extracting new features like Year, Month, Week, Day, DayOfWeek, and Quarter from
 Data Visualization: Creating various plots using matplotlib and seaborn to visually explore the data, including histograms, line plots, bar plots, box plots, scatter plots, and correlation heatmaps.
 Data Analysis and Storytelling: Deriving statistical insights and summarizing key findings from the visualizations and raw data into a coherent narrative.
 How to Run the Analysis
-This project is designed to be run in a Google Colab environment.
+This project is designed to be run in a Jupyter Notebook environment.
 
-Open Google Colab: Go to colab.research.google.com and create a new notebook.
-Upload Dataset:
-Click on the "Files" icon (folder icon) on the left sidebar.
-Click the "Upload" button (upward-pointing arrow) and upload your walmart_sales.csv file. Ensure the filename matches exactly (case-sensitive).
-Copy and Paste Code: Copy the provided Python code snippets into separate cells in your Colab notebook.
-Run Cells: Execute each cell sequentially. The output will include printed insights and generated plots.
+Ensure Jupyter Notebook is Installed:
+If you don't have Jupyter Notebook installed, you can do so via Anaconda (recommended for data science setup) or pip:
+
+Using pip: pip install notebook
+Using Conda: conda install notebook
+Place Dataset:
+Ensure your walmart_sales.csv file is in the same directory as your Jupyter Notebook file (e.g., sales.ipynb).
+
+Open Jupyter Notebook:
+
+Open your terminal or command prompt.
+Navigate to the directory where you saved your sales.ipynb and walmart_sales.csv files using cd.
+Run the command: jupyter notebook
+This will open the Jupyter interface in your default web browser.
+Open the Notebook:
+In the Jupyter interface, you will see a list of files. Click on sales.ipynb to open the notebook in a new tab.
+
+Run Cells:
+Execute each code cell sequentially within the notebook. The output will include printed insights and generated plots.
+
 Key Insights (Summary)
 Sales Seasonality: Clear peaks in sales were observed during specific months, often corresponding to holiday periods (e.g., end-of-year holidays).
 Holiday Boost: Holiday weeks consistently show higher average weekly sales compared to non-holiday weeks.
